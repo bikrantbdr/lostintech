@@ -30,9 +30,9 @@ const TimelineWrapper = styled.div`
 function Timeline() {
   let codingUniverseIconStyles = { background: "#06D6A0" };
   let hardwareIconStyles = { background: "#f9c74f" };
-  let cssIconStyles = { background: "#badf27c9" };
+  let cssIconStyles = { background: "#badf27" };
   let aiIconStyles = { background: "#a25fb3" };
-  let defaultStyles = { background: "#5e5e5ec9" };
+  let defaultStyles = { background: "#686866" };
 
 
   return (

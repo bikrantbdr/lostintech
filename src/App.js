@@ -7,6 +7,7 @@ function App() {
     <>
     <Router>
       <Routes>
+        <Route path='/lostintech' element={<Home/>} > </Route>
         <Route path='*' element={<Home/>} > </Route>
       </Routes>
     </Router>

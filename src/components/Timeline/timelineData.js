@@ -2,7 +2,7 @@ let timelineElements = [
     {
       id: 1,
       title: "Coding Universe",
-      location: "Dragontail, Ascana",
+      location: "Thapathali, Bagmati",
       description:
         "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
       buttonText: "Register",
@@ -12,7 +12,7 @@ let timelineElements = [
     {
       id: 2,
       title: "CSS Battle",
-      location: "Skystead, Craonia",
+      location: "Thapathali, Bagmati",
       description:
         "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
       buttonText: "Register",
@@ -22,7 +22,7 @@ let timelineElements = [
     {
       id: 3,
       title: "Hardware Hackathon",
-      location: "South Warren, Geshington",
+      location: "Thapathali, Bagmati",
       description:
         "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
       buttonText: "Register",
@@ -32,7 +32,7 @@ let timelineElements = [
     {
       id: 4,
       title: "AI",
-      location: "South Warren, Geshington",
+      location: "Thapathali, Bagmati",
       description:
         "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
       buttonText: "Register",
@@ -42,7 +42,7 @@ let timelineElements = [
     {
       id: 5,
       title: "Any other event",
-      location: "Skystead, Craonia",
+      location: "Thapathali, Bagmati",
       description:
         "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
       buttonText: "Registers",
@@ -52,7 +52,7 @@ let timelineElements = [
     {
       id: 6,
       title: "No Button",
-      location: "Dragontail, Ascana",
+      location: "Thapathali, Bagmati",
       description:
         "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
       date: "2003 - 2007",

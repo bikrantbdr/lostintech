@@ -42,7 +42,7 @@
   }
   
   .hardwareButton:hover {
-    background-color: #f9c74f;
+    background-color: #d4a22c;
   }
   
   .aiButton {
@@ -50,25 +50,25 @@
   }
   
   .aiButton:hover {
-    background-color: #a25fb3;
+    background-color: #9b4aaf;
   }
   .cssButton {
-    background-color: #badf27c9;
+    background-color: #badf27;
   }
   
   .cssButton:hover {
-    background-color: #badf27c9;
+    background-color: #a0c11f;
   }
   .defaultButton {
-    background-color: #686866c9;
+    background-color: #686866;
   }
   
   .defaultButton:hover {
-    background-color: #5e5e5ec9;
+    background-color: #4d4d4c;
   }
 
   .vertical-timeline::before {
-    background:green !important;
+    background:rgb(24, 183, 204) !important;
   }
   
   
