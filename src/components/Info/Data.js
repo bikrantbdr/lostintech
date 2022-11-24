@@ -1,6 +1,6 @@
 import about from '../../images/lostintechabout.svg'
 import impacters from '../../images/impacters.svg'
-import explore from '../../images/explore.svg'
+// import explore from '../../images/explore.svg'
 
 export const homeObjOne = {
     id: 'about',
@@ -36,19 +36,19 @@ export const homeObjOne = {
     darkText: true
   };
   
-  export const homeObjThree = {
-    id: 'timeline',
-    lightBg: true,
-    lightText: false,
-    lighttextDesc: false,
-    topLine: 'lorem',
-    headline: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
-    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam id accusantium perspiciatis',
-    buttonLabel: 'Start Now',
-    imgStart: false,
-    img: explore,
-    alt: 'car',
-    primary: false,
-    darkText: true
-  };
+  // export const homeObjThree = {
+  //   id: 'timeline',
+  //   lightBg: true,
+  //   lightText: false,
+  //   lighttextDesc: false,
+  //   topLine: 'lorem',
+  //   headline: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.',
+  //   description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam id accusantium perspiciatis',
+  //   buttonLabel: 'Start Now',
+  //   imgStart: false,
+  //   img: explore,
+  //   alt: 'car',
+  //   primary: false,
+  //   darkText: true
+  // };
   

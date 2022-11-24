@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Info from '../components/Info'
 import Events from '../components/Events'
-import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data'
+import { homeObjOne, homeObjTwo} from '../components/Info/Data'
+import Timeline from '../components/Timeline/Timeline'
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -20,7 +21,8 @@ const Home = () => {
     <Info {...homeObjOne}/>
     <Info {...homeObjTwo}/>
     <Events/>
-    <Info {...homeObjThree}/>
+    <Timeline/>
+    {/* <Info {...homeObjThree}/> */}
     </>
   )
 }

@@ -1,0 +1,82 @@
+
+  .title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  h3 {
+    padding-top: 0.25em;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+  }
+  
+  .date {
+    color: rgb(201, 251, 255);
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .codingUniverseButton {
+    background-color: #06d6a0;
+  }
+  
+  .codingUniverseButton:hover {
+    background-color: #0ac593;
+  }
+  .hardwareButton {
+    background-color: #f9c74f;
+  }
+  
+  .hardwareButton:hover {
+    background-color: #f9c74f;
+  }
+  
+  .aiButton {
+    background-color: #a25fb3;
+  }
+  
+  .aiButton:hover {
+    background-color: #a25fb3;
+  }
+  .cssButton {
+    background-color: #badf27c9;
+  }
+  
+  .cssButton:hover {
+    background-color: #badf27c9;
+  }
+  .defaultButton {
+    background-color: #686866c9;
+  }
+  
+  .defaultButton:hover {
+    background-color: #5e5e5ec9;
+  }
+
+  .vertical-timeline::before {
+    background:green !important;
+  }
+  
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
