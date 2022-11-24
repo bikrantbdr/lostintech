@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/lostintech/static/css/main.72e72061.css",
-    "main.js": "/lostintech/static/js/main.039e713d.js",
+    "main.css": "/lostintech/static/css/main.becaa86f.css",
+    "main.js": "/lostintech/static/js/main.894c440c.js",
     "static/media/video3.mp4": "/lostintech/static/media/video3.bd522d780c0541023f7d.mp4",
     "static/media/preloader.gif": "/lostintech/static/media/preloader.efefe51cea43a1ef1138.gif",
     "static/media/codinguniverse.svg": "/lostintech/static/media/codinguniverse.3e4d2e4f06ac87803a8bf5cfe0d0c3f7.svg",
-    "static/media/impacters.svg": "/lostintech/static/media/impacters.c903cf684049d79b8e9a7ce247e0492b.svg",
     "static/media/ai.svg": "/lostintech/static/media/ai.54d02d7c5c46b9d18d5dc391912e951f.svg",
-    "static/media/css.svg": "/lostintech/static/media/css.2aed68f541a4e42cd843c4b078208be9.svg",
+    "static/media/impacters.svg": "/lostintech/static/media/impacters.c903cf684049d79b8e9a7ce247e0492b.svg",
+    "static/media/css.svg": "/lostintech/static/media/css.5d555a388dc9a6734ab0aca77db7cebf.svg",
     "static/media/lostintechabout.svg": "/lostintech/static/media/lostintechabout.c7447dee551552680e32e8132364b464.svg",
-    "static/media/hardware.svg": "/lostintech/static/media/hardware.8e5019e39407faf1c66ba0a0e4ea3311.svg",
-    "static/media/explore.svg": "/lostintech/static/media/explore.03fe368e0286f0a855eaee18313d3c86.svg",
+    "static/media/hardware.svg": "/lostintech/static/media/hardware.08867ec6ca2b3ddaea2d556b0c4a5712.svg",
     "index.html": "/lostintech/index.html",
-    "main.72e72061.css.map": "/lostintech/static/css/main.72e72061.css.map",
-    "main.039e713d.js.map": "/lostintech/static/js/main.039e713d.js.map"
+    "static/media/work.svg": "/lostintech/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "static/media/code.svg": "/lostintech/static/media/code.08773e7c82d07db9c9b76a1be85e9f72.svg",
+    "main.becaa86f.css.map": "/lostintech/static/css/main.becaa86f.css.map",
+    "main.894c440c.js.map": "/lostintech/static/js/main.894c440c.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e72061.css",
-    "static/js/main.039e713d.js"
+    "static/css/main.becaa86f.css",
+    "static/js/main.894c440c.js"
   ]
 }
