@@ -6,6 +6,7 @@ import Info from '../components/Info'
 import Events from '../components/Events'
 import { homeObjOne, homeObjTwo} from '../components/Info/Data'
 import Timeline from '../components/Timeline/Timeline'
+import Footer from '../components/Footer'
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -22,7 +23,7 @@ const Home = () => {
     <Info {...homeObjTwo}/>
     <Events/>
     <Timeline/>
-    {/* <Info {...homeObjThree}/> */}
+    <Footer/>
     </>
   )
 }

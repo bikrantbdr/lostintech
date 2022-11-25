@@ -76,6 +76,12 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    transition: all 0.2s ease-in-out;
+    color:#59B3EF;
+  }
 
   &.active {
     border-bottom: 3px solid #59B3EF;
