@@ -25,7 +25,7 @@ const Events = () => {
           <EventsH2>AI</EventsH2>
           <EventsP>Unlock the mystery behind the machine</EventsP>
         </EventsCard>
-        <EventsCard to='hardware'>
+        <EventsCard to='/hardware'>
           <EventsIcon src={hardware}/>
           <EventsH2>Hardware exhibition</EventsH2>
           <EventsP>A lot of hit and trials</EventsP>

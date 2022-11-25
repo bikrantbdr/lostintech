@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 import Info from '../components/Info'
 import Events from '../components/Events'
 import { homeObjOne, homeObjTwo} from '../components/Info/Data'
-import Timeline from '../components/Timeline/Timeline'
+import Timeline from '../components/Timeline'
 import Footer from '../components/Footer'
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)

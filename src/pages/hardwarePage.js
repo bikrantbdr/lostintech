@@ -2,7 +2,7 @@ import React from 'react'
 
 const HardwarePage = () => {
   return (
-    <div>H</div>
+    <div>Hardware page under construction</div>
   )
 }
 

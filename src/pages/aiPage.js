@@ -2,7 +2,7 @@ import React from 'react'
 
 const AiPage = () => {
   return (
-    <div>aiPage</div>
+    <div>ai page under construction</div>
   )
 }
 

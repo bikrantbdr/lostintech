@@ -47,7 +47,7 @@ function Timeline() {
 
           return (
             <VerticalTimelineElement
-              key={element.key}
+              key={element.id}
               date={element.date}
               dateClassName="date"
               iconStyle={isCodingUniverseIcon ? codingUniverseIconStyles

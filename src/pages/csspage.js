@@ -2,7 +2,7 @@ import React from 'react'
 
 const CssPage = () => {
   return (
-    <div>csspage</div>
+    <div>css page under construction</div>
   )
 }
 

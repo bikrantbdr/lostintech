@@ -2,7 +2,7 @@ import React from 'react'
 
 const CodingUniversePage = () => {
   return (
-    <div>CodingUniversePage</div>
+    <div>CodingUniverse page under construction</div>
   )
 }
 
