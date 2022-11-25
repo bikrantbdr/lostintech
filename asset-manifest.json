@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lostintech/static/css/main.becaa86f.css",
-    "main.js": "/lostintech/static/js/main.3cd5ebc2.js",
+    "main.js": "/lostintech/static/js/main.51d86e6b.js",
     "static/media/video3.mp4": "/lostintech/static/media/video3.bd522d780c0541023f7d.mp4",
     "static/media/preloader.gif": "/lostintech/static/media/preloader.efefe51cea43a1ef1138.gif",
     "static/media/codinguniverse.svg": "/lostintech/static/media/codinguniverse.3e4d2e4f06ac87803a8bf5cfe0d0c3f7.svg",
@@ -14,10 +14,10 @@
     "static/media/work.svg": "/lostintech/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "static/media/code.svg": "/lostintech/static/media/code.08773e7c82d07db9c9b76a1be85e9f72.svg",
     "main.becaa86f.css.map": "/lostintech/static/css/main.becaa86f.css.map",
-    "main.3cd5ebc2.js.map": "/lostintech/static/js/main.3cd5ebc2.js.map"
+    "main.51d86e6b.js.map": "/lostintech/static/js/main.51d86e6b.js.map"
   },
   "entrypoints": [
     "static/css/main.becaa86f.css",
-    "static/js/main.3cd5ebc2.js"
+    "static/js/main.51d86e6b.js"
   ]
 }
