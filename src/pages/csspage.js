@@ -1,9 +1,9 @@
 import React from 'react'
 
-const csspage = () => {
+const CssPage = () => {
   return (
     <div>csspage</div>
   )
 }
 
-export default csspage
+export default CssPage

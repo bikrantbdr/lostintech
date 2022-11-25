@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { Link as LinkR } from 'react-router-dom'
 export const EventsContainer = styled.div`
   height: 700px;
   display: flex;
@@ -31,7 +31,9 @@ export const EventsWrapper = styled.div`
       padding: 0 20px;
   }
 `
-export const EventsCard = styled.div`
+export const EventsCard = styled(LinkR)`
+  text-decoration: none;
+  color: #000;
   background: #fff;
   display: flex;
   flex-direction: column;

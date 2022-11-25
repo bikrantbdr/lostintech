@@ -10,22 +10,22 @@ const Events = () => {
     <EventsContainer id='events'>
       <EventsH1>Events</EventsH1>
       <EventsWrapper>
-        <EventsCard>
+        <EventsCard to='/css'>
           <EventsIcon src={css}/>
           <EventsH2>CSS war</EventsH2>
           <EventsP>Battle against each other. Fast and neat wins!</EventsP>
         </EventsCard>
-        <EventsCard>
+        <EventsCard to='/codinguniverse'>
         <EventsIcon src={codinguniverse}/>
           <EventsH2>Coding universe 2.0</EventsH2>
           <EventsP>Our annual competitive coding competition</EventsP>
         </EventsCard>
-        <EventsCard>
+        <EventsCard to='/ai'>
           <EventsIcon src={ai}/>
           <EventsH2>AI</EventsH2>
           <EventsP>Unlock the mystery behind the machine</EventsP>
         </EventsCard>
-        <EventsCard>
+        <EventsCard to='hardware'>
           <EventsIcon src={hardware}/>
           <EventsH2>Hardware exhibition</EventsH2>
           <EventsP>A lot of hit and trials</EventsP>
