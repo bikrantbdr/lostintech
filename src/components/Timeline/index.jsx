@@ -27,6 +27,10 @@ const TimelineWrapper = styled.div`
   justify-content: center;
 `
 
+const TimelineContainer = styled.div`
+  background: #CAE6FF;
+`
+
 function Timeline() {
   let codingUniverseIconStyles = { background: "#06D6A0" };
   let hardwareIconStyles = { background: "#f9c74f" };
@@ -36,6 +40,7 @@ function Timeline() {
 
 
   return (
+    <TimelineContainer>
     <TimelineWrapper id='timeline'>
       <VerticalTimeline>
         {timelineElements.map((element) => {
@@ -90,6 +95,7 @@ function Timeline() {
         })}
       </VerticalTimeline>
     </TimelineWrapper>
+    </TimelineContainer>  
   );
 }
 

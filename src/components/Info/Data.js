@@ -1,5 +1,5 @@
 import about from '../../images/lostintechabout.svg'
-import impacters from '../../images/impacters.svg'
+import techkey from '../../images/techkey.svg'
 // import explore from '../../images/explore.svg'
 
 export const homeObjOne = {
@@ -20,17 +20,17 @@ export const homeObjOne = {
   };
   
   export const homeObjTwo = {
-    id: 'impacters',
+    id: 'techkey',
     lightBg: true,
     lightText: false,
     lighttextDesc: false,
-    topLine: 'Impacters',
+    topLine: 'Techkey',
     headline: 'We are here for a change',
     description: 'They are actively involved in nepalese society for a significant progress for our youth',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: impacters,
-    alt: 'impacters',
+    img: techkey,
+    alt: 'techkey',
     dark: false,
     primary: false,
     darkText: true

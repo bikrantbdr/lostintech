@@ -1,8 +1,12 @@
 import React from 'react'
-
+import EventPage from '../components/EventPage'
+import {CssPageData} from './PagesData'
 const CssPage = () => {
   return (
-    <div>css page under construction</div>
+    <>
+      <EventPage {...CssPageData}/>
+    </>
+
   )
 }
 
