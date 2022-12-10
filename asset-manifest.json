@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/lostintech/static/css/main.becaa86f.css",
-    "main.js": "/lostintech/static/js/main.51d86e6b.js",
+    "main.js": "/lostintech/static/js/main.cb77a995.js",
     "static/media/video3.mp4": "/lostintech/static/media/video3.bd522d780c0541023f7d.mp4",
     "static/media/preloader.gif": "/lostintech/static/media/preloader.efefe51cea43a1ef1138.gif",
     "static/media/codinguniverse.svg": "/lostintech/static/media/codinguniverse.3e4d2e4f06ac87803a8bf5cfe0d0c3f7.svg",
     "static/media/ai.svg": "/lostintech/static/media/ai.54d02d7c5c46b9d18d5dc391912e951f.svg",
-    "static/media/impacters.svg": "/lostintech/static/media/impacters.c903cf684049d79b8e9a7ce247e0492b.svg",
+    "static/media/techkey.svg": "/lostintech/static/media/techkey.c903cf684049d79b8e9a7ce247e0492b.svg",
     "static/media/css.svg": "/lostintech/static/media/css.5d555a388dc9a6734ab0aca77db7cebf.svg",
     "static/media/lostintechabout.svg": "/lostintech/static/media/lostintechabout.c7447dee551552680e32e8132364b464.svg",
     "static/media/hardware.svg": "/lostintech/static/media/hardware.08867ec6ca2b3ddaea2d556b0c4a5712.svg",
@@ -14,10 +14,10 @@
     "static/media/work.svg": "/lostintech/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "static/media/code.svg": "/lostintech/static/media/code.08773e7c82d07db9c9b76a1be85e9f72.svg",
     "main.becaa86f.css.map": "/lostintech/static/css/main.becaa86f.css.map",
-    "main.51d86e6b.js.map": "/lostintech/static/js/main.51d86e6b.js.map"
+    "main.cb77a995.js.map": "/lostintech/static/js/main.cb77a995.js.map"
   },
   "entrypoints": [
     "static/css/main.becaa86f.css",
-    "static/js/main.51d86e6b.js"
+    "static/js/main.cb77a995.js"
   ]
 }
