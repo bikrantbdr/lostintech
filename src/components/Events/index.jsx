@@ -30,6 +30,11 @@ const Events = () => {
           <EventsH2>Hardware exhibition</EventsH2>
           <EventsP>A lot of hit and trials</EventsP>
         </EventsCard>
+        <EventsCard to='/hardware'>
+          <EventsIcon src={hardware}/>
+          <EventsH2>Hardware exhibition</EventsH2>
+          <EventsP>A lot of hit and trials</EventsP>
+        </EventsCard>
       </EventsWrapper>
     </EventsContainer>
   )

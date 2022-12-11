@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 export const EventsContainer = styled.div`
-  height: 720px;
+  min-height: 720px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #001E2F;
+  padding:20px;
 
   @media screen and (max-width:1020px) {
     height: auto;
@@ -16,19 +17,11 @@ export const EventsContainer = styled.div`
 export const EventsWrapper = styled.div`
     max-width: 1250px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    grid-gap: 16px;
     padding: 0 50px;
-    @media screen and (max-width: 1000px) {
-      grid-template-columns: 1fr 1fr;
-  }
-
-    @media screen and (max-width: 786px) {
-      grid-template-columns: 1fr;
-      padding: 0 20px;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.25rem;
 `
 export const EventsCard = styled(LinkR)`
   text-decoration: none;
@@ -39,7 +32,8 @@ export const EventsCard = styled(LinkR)`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  height: 320px;
+  width:275px;
+  height: 300px;
   padding:  30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
