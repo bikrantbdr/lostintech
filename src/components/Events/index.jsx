@@ -3,6 +3,7 @@ import codinguniverse from '../../images/codinguniverse.svg'
 import css from '../../images/css.svg'
 import ai from '../../images/ai.svg'
 import hardware from '../../images/hardware.svg'
+import comingsoon from '../../images/comingsoon1.svg'
 import {EventsContainer, EventsH1, EventsWrapper, EventsCard, EventsIcon, EventsH2, EventsP} from './EventsElements'
 
 const Events = () => {
@@ -10,7 +11,7 @@ const Events = () => {
     <EventsContainer id='events'>
       <EventsH1>Events</EventsH1>
       <EventsWrapper>
-        <EventsCard to='/css'>
+        {/* <EventsCard to='/css'>
           <EventsIcon src={css}/>
           <EventsH2>CSS war</EventsH2>
           <EventsP>Battle against each other. Fast and neat wins!</EventsP>
@@ -34,6 +35,11 @@ const Events = () => {
           <EventsIcon src={hardware}/>
           <EventsH2>Hardware exhibition</EventsH2>
           <EventsP>A lot of hit and trials</EventsP>
+        </EventsCard> */}
+        <EventsCard to='/'>
+          <EventsIcon src={comingsoon}/>
+          <EventsH2>Coming Soon</EventsH2>
+          <EventsP>Tune in for exciting events with us.</EventsP>
         </EventsCard>
       </EventsWrapper>
     </EventsContainer>

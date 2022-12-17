@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo,MobileIcon, NavItem, NavLinks, NavMenu,NavBtn,NavBtnLink} from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll';
+import logo from '../../images/logo.svg'
 
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -26,7 +27,7 @@ const Navbar = ({toggle}) => {
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
                 <NavLogo to='/' onClick={toggleHome}>
-                    LIT
+                    <img src={logo} alt="" />
                 </NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars/>
@@ -36,20 +37,20 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="about" smooth={true} duration={1000} spy={true} exact='true' offset={-80}>About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="techkey" smooth={true} duration={1000} spy={true} exact='true' offset={-80}>TechKey</NavLinks>
+                        <NavLinks to="techkey" smooth={true} duration={1000} spy={true} exact='true' offset={-80}>Co-organizer</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="events" smooth={true} duration={1000} spy={true} exact='true' offset={-80}>Events</NavLinks>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                         <NavLinks to="timeline" smooth={true} duration={1000} spy={true} exact='true' offset={-80}>Timeline</NavLinks>
-                    </NavItem>
+                    </NavItem> */}
                     <NavItem>
                         <NavLinks to="sponsor" smooth={true} duration={1000} spy={true} exact='true' offset={-80}>Sponsor</NavLinks>
                     </NavItem>
                 </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/'>Contact</NavBtnLink>
+                        <NavBtnLink to='contact' smooth={true} duration={1000} spy={true} exact='true' offset={-80}>Contact</NavBtnLink>
                     </NavBtn>
             </NavbarContainer>
         </Nav>

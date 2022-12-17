@@ -19,7 +19,7 @@ const Hero = () => {
         <HeroH1> Lost In Tech</HeroH1>
         <HeroP>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam id accusantium perspiciatis</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          <Button href='https://dsc.gg/ecast' onMouseEnter={onHover} onMouseLeave={onHover} target='_blank' primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
             Discord {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>

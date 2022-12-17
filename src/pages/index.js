@@ -8,6 +8,7 @@ import { homeObjOne, homeObjTwo} from '../components/Info/Data'
 import Timeline from '../components/Timeline'
 import Sponsor from '../components/Sponsor'
 import Footer from '../components/Footer'
+import WhySponsorUs from '../components/WhySponsorUs'
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -23,8 +24,9 @@ const Home = () => {
     <Info {...homeObjOne}/>
     <Info {...homeObjTwo}/>
     <Events/>
-    <Timeline/>
-    <Sponsor/>
+    {/* <Timeline/> */}
+    {/* <Sponsor/> */}
+    <WhySponsorUs/>
     <Footer/>
     </>
   )

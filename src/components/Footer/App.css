@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.form-container {
+  /* background-color: #316487; */
+  width: 40vw;
+  /* min-height: 80vh; */
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+
+.heading1 {
+  color: #22a4e1;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.description {
+  color: #d7d5d5;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.inputbox {
+  position: relative;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.inputbox input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  z-index: 10;
+
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #FCFCFF;
+  pointer-events: none;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+}
+
+.inputbox input:valid~span,
+.inputbox input:focus~span {
+  color: #8CCEFF;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0.75em;
+
+}
+
+.inputbox i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #8CCEFF;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.inputbox input:valid~i,
+.inputbox input:focus~i {
+  height: 44px;
+}
+
+/* .inputbox input:invalid~span
+{
+  color: #8CCEFF;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0.75em;
+}
+.inputbox input:invalid~i{
+  height: 44px;
+} */
+
+
+.submit {
+  border: none;
+  outline: none;
+  background: #175d93;
+  padding: 11px 25px;
+  width: 200px;
+  margin-top: 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background: #1f74b5;
+}
+.messagebox{
+  background-color: #316487;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:2rem;
+}
+.msg{
+  color:#ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.05rem;
+
+}
