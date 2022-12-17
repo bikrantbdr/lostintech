@@ -51,7 +51,7 @@ export const WhyCard = styled.div`
 `
 export const WhysH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #017eb7;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -73,5 +73,6 @@ export const WhyH2 = styled.h2`
 
 export const WhyP = styled.p`
   font-size: 1rem;
+  margin-top: 10px;
   text-align: center;
 `

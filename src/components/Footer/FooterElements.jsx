@@ -94,6 +94,11 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
   font-weight: bold;
 `
+
+export const Logoimg = styled.img`
+  width:50px;
+  height: 50px;
+`
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
@@ -103,4 +108,13 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+`
+export const Copyright =styled.div`
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  gap:5px;
 `

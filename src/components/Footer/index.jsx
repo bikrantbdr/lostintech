@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink,SocialMediaLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap } from './FooterElements'
+import { FooterContainer, FooterWrap, FooterLinkItems, FooterLinkContainer,Logoimg, FooterLinkTitle, FooterLink,SocialMediaLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap,Copyright } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
+import favicon from '../../images/logo1.svg'
 
 import { useState } from 'react';
 import Message from './Message';
@@ -32,7 +33,7 @@ const Footer = () => {
   return (
     <FooterContainer id='contact'>
       <FooterWrap>
-        <FooterLinkContainer >
+        {/* <FooterLinkContainer > */}
             {/* <FooterLinkItems>
               <FooterLinkTitle>Register</FooterLinkTitle>
                 <FooterLink to='/hardware'>Hardware Hackathon</FooterLink>
@@ -48,7 +49,9 @@ const Footer = () => {
                 <SocialMediaLink href='https://www.facebook.com/ecastthapathali' target='_blank'>Facebook</SocialMediaLink>
                 <SocialMediaLink href='https://www.linkedin.com/company/ecastthapathali/' target='_blank'>Linkedin</SocialMediaLink>
             </FooterLinkItems> */}
-            <FooterLinkItems>
+            {/* <FooterLinkItems> */}
+            {/* </FooterLinkItems> */}
+        {/* </FooterLinkContainer> */}
         { message ? 
           <Message message={ message } /> : 
           
@@ -82,12 +85,10 @@ const Footer = () => {
           </form>
         </div>
           }
-            </FooterLinkItems>
-        </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              LIT
+              <Logoimg src={favicon} alt="lit" />
             </SocialLogo>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/ecastthapathali' target='_blank' arial-label='Facebook'>
@@ -103,6 +104,17 @@ const Footer = () => {
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>
+      <Copyright>
+        <div>
+      All Rights Reserved © ECAST
+        </div>
+        <div>
+        Contact: 9860766566,9865376629
+        </div>
+        <div>
+        Email: ecast@tcioe.edu.np
+        </div>
+      </Copyright>
     </FooterContainer>
   )
 }

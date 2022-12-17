@@ -105,7 +105,7 @@
 .submit {
   border: none;
   outline: none;
-  background: #175d93;
+  background: #53b3ef;
   padding: 11px 25px;
   width: 200px;
   margin-top: 2rem;
@@ -115,7 +115,7 @@
 }
 
 .submit:hover{
-  background: #1f74b5;
+  background: #8CCEFF;
 }
 .messagebox{
   background-color: #316487;
