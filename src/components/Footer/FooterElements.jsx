@@ -114,8 +114,7 @@ export const Copyright =styled.div`
   text-align: center;
   color:#fff;
   display: flex;
-  /* flex-direction: column; */
-  justify-content:space-evenly;
+  flex-direction: column;
   padding-bottom: 1rem;
   gap:5px;
 `

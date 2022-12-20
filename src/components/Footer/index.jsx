@@ -109,7 +109,7 @@ const Footer = () => {
       All Rights Reserved © ECAST
         </div>
         <div>
-        Contact: 9860766566,9865376629
+        Contact: 9860766566, 9865376629
         </div>
         <div>
         Email: ecast@tcioe.edu.np
