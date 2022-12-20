@@ -63,7 +63,6 @@ const Footer = () => {
               <input
                 name='username'
                 type='text'
-                
                 value={username}
                 required={true}
                 onChange={(event) => setUsername(event.target.value)}
