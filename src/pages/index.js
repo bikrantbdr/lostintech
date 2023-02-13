@@ -24,8 +24,8 @@ const Home = () => {
     <Info {...homeObjOne}/>
     <Info {...homeObjTwo}/>
     <Events/>
-    {/* <Timeline/> */}
-    {/* <Sponsor/> */}
+    <Timeline/>
+    <Sponsor/>
     <WhySponsorUs/>
     <Footer/>
     </>
